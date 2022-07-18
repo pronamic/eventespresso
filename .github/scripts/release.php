@@ -64,7 +64,7 @@ if ( ! is_object( $result ) ) {
 
 $version = $result->version;
 
-$url = 'https://eventespresso.com/?' . http_build_query(
+$url = 'https://eventespresso.com/' . http_build_query(
 	[
 		'pu_request_plugin' => 'event-espresso-core-reg',
 		'pu_get_download'   => '1',
