@@ -17,4 +17,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         EVENT_ESPRESSO_LICENSE_KEY: ${{ secrets.EVENT_ESPRESSO_LICENSE_KEY }}
+        EVENT_ESPRESSO_LICENSE_DOMAIN: ${{ secrets.EVENT_ESPRESSO_LICENSE_DOMAIN }}
       run: php .github/scripts/release.php
