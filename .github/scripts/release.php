@@ -105,7 +105,7 @@ line( '::group::Download Event Espresso' );
 
 run(
 	sprintf(
-		'curl %s --output %s',
+		'curl --location %s --output %s',
 		escapeshellarg( $url ),
 		$zip_file
 	)
